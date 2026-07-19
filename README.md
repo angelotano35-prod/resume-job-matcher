@@ -4,11 +4,13 @@ An interactive dashboard that scores how well your resume matches a job descript
 using TF-IDF and cosine similarity (no external AI API required), then generates
 a tailored cover letter draft.
 
-## Features
-- Upload your resume directly as a PDF
-- Paste any job description
-- Get a match score, matched keywords, and missing keywords
-- Auto-generated cover letter draft, editable and downloadable
+## How it works
+
+1. Run the dashboard with `streamlit run app.py`
+2. Upload your resume as a PDF directly in the browser
+3. Paste the job posting text into the text box
+4. Fill in the job title, company name, and your name
+5. Click "Analyze & Generate" to see your match score, matched/missing keywords, and a generated cover letter draft
 
 ## Tech Stack
 Python, Streamlit, pypdf, scikit-learn (TF-IDF + cosine similarity)
